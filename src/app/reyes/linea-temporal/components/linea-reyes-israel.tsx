@@ -9,9 +9,20 @@ import TimelineItem from '@material-ui/lab/TimelineItem'
 import TimelineSeparator from '@material-ui/lab/TimelineSeparator'
 import Typography from '@material-ui/core/Typography'
 
-// import TimelineOppositeContent from '@material-ui/lab/TimelineOppositeContent'
-
 type IIsraelKingsKeys = 'jeroboam' | 'nadab' | 'baasa' | 'ela' | 'zimri' | 'omri' | 'acab'
+| 'ocozias'
+| 'joram'
+| 'jehu'
+| 'joacaz'
+| 'joas'
+| 'jeroboam_2'
+| 'zacarias'
+| 'salum'
+| 'manahem'
+| 'pekaia'
+| 'peka'
+| 'oseas'
+
 
 interface IIsraelKingsDataItem {
   name: string
@@ -21,14 +32,30 @@ interface IIsraelKingsDataItem {
 }
 
 export const LineaReyesIsraelComponent = () => {
+  // 52px = 1 año
+
+  // 365 dias = 52px
+  // 180 días = 
   const kingsHeight = {
     jeroboam: 'min-h-0 bg-green-400 h-[calc(22*52px)]',
     nadab: 'min-h-0 bg-green-200 h-[calc(2*52px)]',
     baasa: 'min-h-0 bg-green-400 h-[calc(24*52px)]',
     ela: 'min-h-0 bg-green-200 h-[calc(2*52px)]',
-    zimri: 'min-h-0 bg-green-400 h-[1px]',
+    zimri: 'min-h-0 bg-green-400 h-[1px]', //7 días
     omri: 'min-h-0 bg-green-200 h-[calc(6*52px)]',
-    acab: 'min-h-0 bg-green-400 h-[calc(22*52px)]'
+    acab: 'min-h-0 bg-green-400 h-[calc(22*52px)]',
+    ocozias: 'min-h-0 bg-green-200 h-[calc(2*52px)]',
+    joram: 'min-h-0 bg-green-400 h-[calc(12*52px)]',
+    jehu: 'min-h-0 bg-green-200 h-[calc(28*52px)]',
+    joacaz: 'min-h-0 bg-green-400 h-[calc(17*52px)]',
+    joas: 'min-h-0 bg-green-200 h-[calc(16*52px)]',
+    jeroboam_2: 'min-h-0 bg-green-400 h-[calc(41*52px)]',
+    zacarias: 'min-h-0 bg-green-200 h-[calc(26px)]', //6 meses
+    salum: 'min-h-0 bg-green-400 h-[calc(4px)]', //1 mes
+    manahem: 'min-h-0 bg-green-200 h-[calc(10*52px)]',
+    pekaia: 'min-h-0 bg-green-400 h-[calc(2*52px)]',
+    peka: 'min-h-0 bg-green-200 h-[calc(20*52px)]',
+    oseas: 'min-h-0 bg-green-400 h-[calc(9*52px)]',
   }
 
   const reyesIsrael: IIsraelKingsDataItem[] = [
@@ -73,12 +100,84 @@ export const LineaReyesIsraelComponent = () => {
       key: 'acab',
       time: 22,
       time_mensure: 'Años'
+    },
+    {
+      name: 'Ocozías',
+      key: 'ocozias',
+      time: 2,
+      time_mensure: 'Años'
+    },
+    {
+      name: 'Jorám',
+      key: 'joram',
+      time: 12,
+      time_mensure: 'Años'
+    },
+    {
+      name: 'Jehú',
+      key: 'jehu',
+      time: 28,
+      time_mensure: 'Años'
+    },
+    {
+      name: 'Joacáz',
+      key: 'joacaz',
+      time: 17,
+      time_mensure: 'Años'
+    },
+    {
+      name: 'Joás',
+      key: 'joas',
+      time: 16,
+      time_mensure: 'Años'
+    },
+    {
+      name: 'Jeroboám II',
+      key: 'jeroboam_2',
+      time: 41,
+      time_mensure: 'Años'
+    },
+    {
+      name: 'Zacarías',
+      key: 'zacarias',
+      time: 6,
+      time_mensure: 'Meses'
+    },
+    {
+      name: 'Salúm',
+      key: 'salum',
+      time: 1,
+      time_mensure: 'Mes'
+    },
+    {
+      name: 'Manahém',
+      key: 'manahem',
+      time: 10,
+      time_mensure: 'Años'
+    },
+    {
+      name: 'Pekaía',
+      key: 'pekaia',
+      time: 2,
+      time_mensure: 'Años'
+    },
+    {
+      name: 'Peka',
+      key: 'peka',
+      time: 20,
+      time_mensure: 'Años'
+    },
+    {
+      name: 'Oseas',
+      key: 'oseas',
+      time: 9,
+      time_mensure: 'Años'
     }
   ]
 
   return (
     <div className="w-full">
-      <Timeline align="right">
+      <Timeline align="left">
         {reyesIsrael.map((item: IIsraelKingsDataItem) => (
           <TimelineItem key={`israel-king-${item.key}`} className={`${kingsHeight[item.key]}`}>
             <TimelineSeparator>
@@ -93,9 +192,10 @@ export const LineaReyesIsraelComponent = () => {
                 Tiempo de reinado: {item.time} {item.time_mensure}
               </Typography>
             </TimelineContent>
-          </TimelineItem>
+            </TimelineItem>
         ))}
       </Timeline>
+      ISRAEL LLEVADO CAUTIVO POR ASIRIA
     </div>
   )
 }

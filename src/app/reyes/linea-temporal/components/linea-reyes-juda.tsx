@@ -57,7 +57,7 @@ export const LineaReyesJudaComponent = () => {
     <div className="w-full">
       <Timeline align="right">
         {reyesJuda.map((item: IJudaKingsDataItem) => (
-          <TimelineItem key={`juda-king-${item.key}`} className={`${kingsHeight[item.key]}`}>
+          <TimelineItem key={`juda-king-${item.key}`} className={`${kingsHeight[item.key]} content-none`}>
             <TimelineSeparator>
               <TimelineDot></TimelineDot>
               <TimelineConnector />
