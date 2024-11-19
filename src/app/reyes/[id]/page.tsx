@@ -2,7 +2,7 @@
 
 import './king-description.styles.css'
 
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useState } from 'react'
 
 import { IoIosArrowDropleft } from 'react-icons/io'
 import Link from 'next/link'
@@ -12,15 +12,8 @@ import { getKingByKey } from '@/util/getKings'
 import { useParams } from 'next/navigation'
 
 export default function KingDetail() {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [kingData, setKingData] = useState<any>(undefined)
-  const time_mensure_translated = {
-    week: 'Semana',
-    week_plural: 'Semanas',
-    month: 'Mes',
-    month_plural: 'Meses',
-    year: 'Año',
-    year_plural: 'Años'
-  }
   const params = useParams()
 
   useEffect(() => {
