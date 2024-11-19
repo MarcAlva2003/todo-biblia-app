@@ -1,5 +1,7 @@
 'use client'
 
+import Link from 'next/link'
+import { ROUTES } from '@/constants/routes'
 import React from 'react'
 import Timeline from '@material-ui/lab/Timeline'
 import TimelineConnector from '@material-ui/lab/TimelineConnector'
@@ -9,23 +11,27 @@ import TimelineItem from '@material-ui/lab/TimelineItem'
 import TimelineSeparator from '@material-ui/lab/TimelineSeparator'
 import Typography from '@material-ui/core/Typography'
 
-type IJudaKingsKeys = 'roboam' | 'abias' | 'asa' | 'josafat'
-| 'joram_juda'
-| 'ocozias_juda'
-| 'atalia'
-| 'joas'
-| 'amasias'
-| 'azarias'
-| 'jotam'
-| 'acaz'
-| 'ezequias'
-| 'manases'
-| 'amon'
-| 'josias'
-| 'joacaz'
-| 'joacim'
-| 'joaquin'
-| 'sedequias'
+type IJudaKingsKeys =
+  | 'roboam'
+  | 'abias'
+  | 'asa'
+  | 'josafat'
+  | 'joram_juda'
+  | 'ocozias_juda'
+  | 'atalia'
+  | 'joas'
+  | 'amasias'
+  | 'azarias'
+  | 'jotam'
+  | 'acaz'
+  | 'ezequias'
+  | 'manases'
+  | 'amon'
+  | 'josias'
+  | 'joacaz'
+  | 'joacim'
+  | 'joaquin'
+  | 'sedequias'
 
 interface IJudaKingsDataItem {
   name: string
@@ -55,7 +61,7 @@ export const LineaReyesJudaComponent = () => {
     joacaz: 'bg-amber-200 h-[calc(3*4px)]', // 3 meses
     joacim: 'bg-amber-100 h-[calc(11*52px)]',
     joaquin: 'bg-amber-200 h-[calc(3*4px)]', // 3 meses
-    sedequias: 'bg-amber-100 h-[calc(11*52px)]',
+    sedequias: 'bg-amber-100 h-[calc(11*52px)]'
   }
 
   const reyesJuda: IJudaKingsDataItem[] = [
@@ -183,8 +189,8 @@ export const LineaReyesJudaComponent = () => {
 
   return (
     <div className="w-full">
-      <h4 className='text-center text-gray-700 py-2'>JUDÁ</h4>
-      <Timeline align="right" className='juda-timeline'>
+      <h3 className="text-center text-gray-700 py-4">Judá</h3>
+      <Timeline align="right" className="juda-timeline">
         {reyesJuda.map((item: IJudaKingsDataItem) => (
           <TimelineItem key={`juda-king-${item.key}`} className={`${kingsHeight[item.key]} timeline-item`}>
             <TimelineSeparator>
@@ -192,9 +198,11 @@ export const LineaReyesJudaComponent = () => {
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-              <Typography variant="h6" component="h1">
-                {item.name}
-              </Typography>
+              <div className="w-full flex justify-end mt-[-10px]">
+                <Link href={`${ROUTES.REYES}/${item.key}`} className="w-fit">
+                  <h4 className="w-fit py-1 px-2">{item.name}</h4>
+                </Link>
+              </div>
               <Typography variant="body2" color="textSecondary">
                 Tiempo de reinado: {item.time} {item.time_mensure}
               </Typography>

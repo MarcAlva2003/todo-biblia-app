@@ -1,5 +1,7 @@
 'use client'
 
+import Link from 'next/link'
+import { ROUTES } from '@/constants/routes'
 import React from 'react'
 import Timeline from '@material-ui/lab/Timeline'
 import TimelineConnector from '@material-ui/lab/TimelineConnector'
@@ -184,7 +186,8 @@ export const LineaReyesIsraelComponent = () => {
 
   return (
     <div className="w-full">
-      <h4 className='text-center text-gray-700 py-2'>ISRAEL</h4>
+      <h3 className='text-center text-gray-700 py-4'>Israel</h3>
+
       <Timeline align="left" className="israel-timeline">
         {reyesIsrael.map((item: IIsraelKingsDataItem) => (
           <TimelineItem key={`israel-king-${item.key}`} className={`${kingsHeight[item.key]} timeline-item`}>
@@ -193,9 +196,11 @@ export const LineaReyesIsraelComponent = () => {
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-              <Typography variant="h6" component="h1">
-                {item.name}
-              </Typography>
+            <div className="mt-[-10px]">
+                <Link href={`${ROUTES.REYES}/${item.key}`} className="w-fit">
+                  <h4 className="w-fit py-1 px-2">{item.name}</h4>
+                </Link>
+              </div>
               <Typography variant="body2" color="textSecondary">
                 Tiempo de reinado: {item.time} {item.time_mensure}
               </Typography>

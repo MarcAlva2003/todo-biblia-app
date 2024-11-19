@@ -4,6 +4,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  @apply bg-slate-100
 }
 
 
@@ -17,20 +18,29 @@ body {
 h1 {
   font-size: 44px;
   font-weight: 800;
+  @apply text-gray-900;
 }
 
 h2 {
   font-size: 32px;
   font-weight: 700;
+  @apply text-gray-800;
 }
 
 h3 {
   font-size: 24px;
   font-weight: 600;
+  @apply text-gray-600;
 }
 h4 {
   font-size: 20px;
   font-weight: 600;
+  @apply text-gray-600;
+}
+p {
+  font-weight: 500;
+  font-size: 20px;
+  @apply text-gray-500;
 }
 .juda-kings-timeline {}
 .israel-kings-timeline {}
