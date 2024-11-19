@@ -1,0 +1,13 @@
+.juda-timeline {
+  padding: 0 6px 0 0 !important;
+  .timeline-item {
+    padding-right: 12px;
+  }
+}
+
+.israel-timeline {
+  padding: 0 0 0 6px !important;
+  .timeline-item {
+    padding-left: 12px;
+  }
+}

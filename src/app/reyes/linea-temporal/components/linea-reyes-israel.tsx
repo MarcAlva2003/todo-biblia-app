@@ -9,20 +9,26 @@ import TimelineItem from '@material-ui/lab/TimelineItem'
 import TimelineSeparator from '@material-ui/lab/TimelineSeparator'
 import Typography from '@material-ui/core/Typography'
 
-type IIsraelKingsKeys = 'jeroboam' | 'nadab' | 'baasa' | 'ela' | 'zimri' | 'omri' | 'acab'
-| 'ocozias'
-| 'joram'
-| 'jehu'
-| 'joacaz'
-| 'joas'
-| 'jeroboam_2'
-| 'zacarias'
-| 'salum'
-| 'manahem'
-| 'pekaia'
-| 'peka'
-| 'oseas'
-
+type IIsraelKingsKeys =
+  | 'jeroboam_1'
+  | 'nadab'
+  | 'baasa'
+  | 'ela'
+  | 'zimri'
+  | 'omri'
+  | 'acab'
+  | 'ocozias_israel'
+  | 'joram_israel'
+  | 'jehu'
+  | 'joacaz'
+  | 'joas'
+  | 'jeroboam_2'
+  | 'zacarias'
+  | 'salum'
+  | 'manahem'
+  | 'pekaia'
+  | 'peka'
+  | 'oseas'
 
 interface IIsraelKingsDataItem {
   name: string
@@ -33,35 +39,36 @@ interface IIsraelKingsDataItem {
 
 export const LineaReyesIsraelComponent = () => {
   // 52px = 1 año
+  //4 px = 1 mes
 
   // 365 dias = 52px
-  // 180 días = 
+  // 180 días =
   const kingsHeight = {
-    jeroboam: 'min-h-0 bg-green-400 h-[calc(22*52px)]',
-    nadab: 'min-h-0 bg-green-200 h-[calc(2*52px)]',
-    baasa: 'min-h-0 bg-green-400 h-[calc(24*52px)]',
-    ela: 'min-h-0 bg-green-200 h-[calc(2*52px)]',
-    zimri: 'min-h-0 bg-green-400 h-[1px]', //7 días
-    omri: 'min-h-0 bg-green-200 h-[calc(6*52px)]',
-    acab: 'min-h-0 bg-green-400 h-[calc(22*52px)]',
-    ocozias: 'min-h-0 bg-green-200 h-[calc(2*52px)]',
-    joram: 'min-h-0 bg-green-400 h-[calc(12*52px)]',
-    jehu: 'min-h-0 bg-green-200 h-[calc(28*52px)]',
-    joacaz: 'min-h-0 bg-green-400 h-[calc(17*52px)]',
-    joas: 'min-h-0 bg-green-200 h-[calc(16*52px)]',
-    jeroboam_2: 'min-h-0 bg-green-400 h-[calc(41*52px)]',
-    zacarias: 'min-h-0 bg-green-200 h-[calc(26px)]', //6 meses
-    salum: 'min-h-0 bg-green-400 h-[calc(4px)]', //1 mes
-    manahem: 'min-h-0 bg-green-200 h-[calc(10*52px)]',
-    pekaia: 'min-h-0 bg-green-400 h-[calc(2*52px)]',
-    peka: 'min-h-0 bg-green-200 h-[calc(20*52px)]',
-    oseas: 'min-h-0 bg-green-400 h-[calc(9*52px)]',
+    jeroboam_1: 'min-h-0 bg-teal-200 h-[calc(22*52px)]',
+    nadab: 'min-h-0 bg-teal-100 h-[calc(2*52px)]',
+    baasa: 'min-h-0 bg-teal-200 h-[calc(24*52px)]',
+    ela: 'min-h-0 bg-teal-100 h-[calc(2*52px)]',
+    zimri: 'min-h-0 bg-teal-200 h-[1px]', //7 días
+    omri: 'min-h-0 bg-teal-100 h-[calc(6*52px)]',
+    acab: 'min-h-0 bg-teal-200 h-[calc(22*52px)]',
+    ocozias_israel: 'min-h-0 bg-teal-100 h-[calc(2*52px)]',
+    joram_israel: 'min-h-0 bg-teal-200 h-[calc(12*52px)]',
+    jehu: 'min-h-0 bg-teal-100 h-[calc(28*52px)]',
+    joacaz: 'min-h-0 bg-teal-200 h-[calc(17*52px)]',
+    joas: 'min-h-0 bg-teal-100 h-[calc(16*52px)]',
+    jeroboam_2: 'min-h-0 bg-teal-200 h-[calc(41*52px)]',
+    zacarias: 'min-h-0 bg-teal-100 h-[calc(26px)]', //6 meses
+    salum: 'min-h-0 bg-teal-200 h-[calc(4px)]', //1 mes
+    manahem: 'min-h-0 bg-teal-100 h-[calc(10*52px)]',
+    pekaia: 'min-h-0 bg-teal-200 h-[calc(2*52px)]',
+    peka: 'min-h-0 bg-teal-100 h-[calc(20*52px)]',
+    oseas: 'min-h-0 bg-teal-200 h-[calc(9*52px)]'
   }
 
   const reyesIsrael: IIsraelKingsDataItem[] = [
     {
       name: 'Jeroboam',
-      key: 'jeroboam',
+      key: 'jeroboam_1',
       time: 22,
       time_mensure: 'Años'
     },
@@ -103,13 +110,13 @@ export const LineaReyesIsraelComponent = () => {
     },
     {
       name: 'Ocozías',
-      key: 'ocozias',
+      key: 'ocozias_israel',
       time: 2,
       time_mensure: 'Años'
     },
     {
       name: 'Jorám',
-      key: 'joram',
+      key: 'joram_israel',
       time: 12,
       time_mensure: 'Años'
     },
@@ -177,9 +184,10 @@ export const LineaReyesIsraelComponent = () => {
 
   return (
     <div className="w-full">
-      <Timeline align="left">
+      <h4 className='text-center text-gray-700 py-2'>ISRAEL</h4>
+      <Timeline align="left" className="israel-timeline">
         {reyesIsrael.map((item: IIsraelKingsDataItem) => (
-          <TimelineItem key={`israel-king-${item.key}`} className={`${kingsHeight[item.key]}`}>
+          <TimelineItem key={`israel-king-${item.key}`} className={`${kingsHeight[item.key]} timeline-item`}>
             <TimelineSeparator>
               <TimelineDot></TimelineDot>
               <TimelineConnector />
@@ -192,7 +200,7 @@ export const LineaReyesIsraelComponent = () => {
                 Tiempo de reinado: {item.time} {item.time_mensure}
               </Typography>
             </TimelineContent>
-            </TimelineItem>
+          </TimelineItem>
         ))}
       </Timeline>
       ISRAEL LLEVADO CAUTIVO POR ASIRIA
