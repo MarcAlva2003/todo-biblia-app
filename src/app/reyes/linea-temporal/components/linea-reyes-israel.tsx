@@ -1,5 +1,6 @@
 'use client'
 
+import { FaExternalLinkAlt } from "react-icons/fa";
 import Link from 'next/link'
 import { ROUTES } from '@/constants/routes'
 import React from 'react'
@@ -96,7 +97,7 @@ export const LineaReyesIsraelComponent = () => {
       name: 'Zimri',
       key: 'zimri',
       time: 1,
-      time_mensure: 'Años'
+      time_mensure: 'Semana'
     },
     {
       name: 'Omri',
@@ -197,8 +198,9 @@ export const LineaReyesIsraelComponent = () => {
             </TimelineSeparator>
             <TimelineContent>
             <div className="mt-[-10px]">
-                <Link href={`${ROUTES.REYES}/${item.key}`} className="w-fit">
+                <Link href={`${ROUTES.REYES}/${item.key}`} className="w-fit flex items-center">
                   <h4 className="w-fit py-1 px-2">{item.name}</h4>
+                  <FaExternalLinkAlt className="text-gray-700"/>
                 </Link>
               </div>
               <Typography variant="body2" color="textSecondary">
