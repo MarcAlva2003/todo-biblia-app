@@ -1,5 +1,6 @@
 'use client'
 
+import { FaExternalLinkAlt } from 'react-icons/fa'
 import Link from 'next/link'
 import { ROUTES } from '@/constants/routes'
 import React from 'react'
@@ -199,8 +200,9 @@ export const LineaReyesJudaComponent = () => {
             </TimelineSeparator>
             <TimelineContent>
               <div className="w-full flex justify-end mt-[-10px]">
-                <Link href={`${ROUTES.REYES}/${item.key}`} className="w-fit">
-                  <h4 className="w-fit py-1 px-2">{item.name}</h4>
+                <Link href={`${ROUTES.REYES}/${item.key}`} className="w-fit flex items-center">
+                  <h4 className="w-fit py-1 pr-2">{item.name}</h4>
+                  <FaExternalLinkAlt className="text-gray-700" />
                 </Link>
               </div>
               <Typography variant="body2" color="textSecondary">

@@ -1,6 +1,6 @@
 'use client'
 
-import { FaExternalLinkAlt } from "react-icons/fa";
+import { FaExternalLinkAlt } from 'react-icons/fa'
 import Link from 'next/link'
 import { ROUTES } from '@/constants/routes'
 import React from 'react'
@@ -187,8 +187,7 @@ export const LineaReyesIsraelComponent = () => {
 
   return (
     <div className="w-full">
-      <h3 className='text-center text-gray-700 py-4'>Israel</h3>
-
+      <h3 className="text-center text-gray-700 py-4">Israel</h3>
       <Timeline align="left" className="israel-timeline">
         {reyesIsrael.map((item: IIsraelKingsDataItem) => (
           <TimelineItem key={`israel-king-${item.key}`} className={`${kingsHeight[item.key]} timeline-item`}>
@@ -197,10 +196,10 @@ export const LineaReyesIsraelComponent = () => {
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-            <div className="mt-[-10px]">
+              <div className="mt-[-10px]">
                 <Link href={`${ROUTES.REYES}/${item.key}`} className="w-fit flex items-center">
-                  <h4 className="w-fit py-1 px-2">{item.name}</h4>
-                  <FaExternalLinkAlt className="text-gray-700"/>
+                  <h4 className="w-fit py-1 pr-2">{item.name}</h4>
+                  <FaExternalLinkAlt className="text-gray-700" />
                 </Link>
               </div>
               <Typography variant="body2" color="textSecondary">
