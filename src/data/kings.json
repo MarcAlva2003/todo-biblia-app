@@ -134,8 +134,8 @@
       "time": 12,
       "time_mensure":"year",
       "was_good": false,
-      "description": "",
-      "bible_passages": "1 Reyes 1:17-18, 3:1-3,",
+      "description": "# Joram de Israel\nJoram, hijo de Acab, hermano de Ocozías, comenzó a reinar luego de la muerte del segundo rey mencionado, ya que este no tuvo hijos. Reinó durante doce años e hizo lo malo ante los ojos de Jehová, aunque no como Acab y Jezabel, ya que quitó las estatuas de Baal, pero igualmente anduvo en los caminos de Jeroboam, que hizo pecar al pueblo\n\n## Muerte de Joram\nJehú, ungido rey, conspiró contra Joram. Joram estaba en Jezreel, y cuando Jehú llegó allí, el atalaya envió a dos mensajeros, los cuales se quedaron con Jehú. Al ver esto, y al reconocer que el que llegaba era Jehú, Jorám junto con Ocozías, quien estaba de visita, salieron en sus carros al encuentro con Jehú en la heredad de Nabot.\nUna vez allí, Joram pregunta si hay paz, pero Jehú le dice que no, y reprende sus pecados, y cuando Joram intentaba huir, le lanzó una flecha que dio en su corazón y cayó muerto, y su cuerpo fue echado en un extremo de la heredad de Nabot, conforme a la Palabra de Dios, la paga de la heredad de Nabot.",
+      "bible_passages": "1 Reyes 1:17-18, 3:1-3, 9:14-26",
       "prophets": [
         {
           "name": "",
@@ -161,13 +161,13 @@
       ]
     },
     {
-      "name": "Joacáz",
+      "name": "Joacaz",
       "key":"joacaz",
       "time": 17,
       "time_mensure":"year",
       "was_good": false,
-      "description": "",
-      "bible_passages": "",
+      "description": "# Joacaz\n\nComenzó a reinar luego se la muerte de su padre Jehú y reinó 17 años. Hizo lo malo ante los ojos de Jehová porque anduvo en los caminos de Jeroboam.\n\n## Jehová libra a Israel de Siria\nDebido a que Joram no se aparto de los caminos de Jeroboam, Dios entregó a Israel por un largo tiempo en manos de Ben-adad, rey de Siria, quien destruyó el ejército de Joram, y eran afligidos.\nAnte esto, Joram oró a Dios, y Jehová levantó un salvador que los libró de las manos de los sirios, aunque a todo esto, el pueblo no se apartó del pecado ni del camino de Jeroboam, y dejaron la estatua de Asera en Samaria.",
+      "bible_passages": "2 Reyes 13:1-9",
       "prophets": [
         {
           "name": "",
@@ -182,8 +182,8 @@
       "time": 16,
       "time_mensure":"year",
       "was_good": false,
-      "description": "",
-      "bible_passages": "",
+      "description": "# Joás\nUna vez que murió Joacaz, comenzó a reinar Joás, su hijo, y reinó sobre Israel 16 años. Sin embargo, hizo lo malo ante los ojos de Jehová y no se apartó de los pecados de Jeroboam. Durmió y en su lugar reinó Jeroboam II",
+      "bible_passages": "2 Reyes 13:9-13",
       "prophets": [
         {
           "name": "",
@@ -199,7 +199,7 @@
       "time_mensure":"year",
       "was_good": false,
       "description": "# Jeroboam II\n\nJeroboam II es el 12° rey de Israel. Gobernó durante 41 años, y bajo su gobierno el reino del norte fue bendecido por Dios y prosperado.\n\n## La prosperidad del reino\nAlgo que cabe aclarar, es que la bendición de Dios no significa aprobación, pues la bendición no llegó por Jeroboam, ni por su vida piadosa, sino que vemos que fue una bendición que vino a pesar de su vida. Dios derrama su bendición siempre, por su misericordia, a pesar de que nunca la recibimos, pero puede encontrar en nosotros un canal para poder derramar su bendición, o un obstáculo y que tenga que hacerlo a pesar nuestro. En el caso de este rey, no podemos decir que haya sido ese canal para que Dios bendiga al pueblo.",
-      "bible_passages": "",
+      "bible_passages": "2 Reyes 13:13; 14:23-29",
       "prophets": [
         {
           "name": "",
@@ -214,8 +214,8 @@
       "time": 6,
       "time_mensure":"month",
       "was_good": false,
-      "description": "",
-      "bible_passages": "",
+      "description": "# Zacarías\nComenzó a reinar sobre Israel en el año treinta y ocho del reinado de Azarías en Judá, y reinó durante seis meses. Hizo lo malo ante los ojos de Jehová, porque no se apartó de los pecados de Jeroboam.\nSalum, hijo de Jabes conspiró contra él y lo mato, y de esta forma se cumplió la Palabra que Dios había hablado a Jehú, acerca de que sus hijos reinarían hasta la cuarta generación.",
+      "bible_passages": "2 Reyes 14:29; 15:8-12",
       "prophets": [
         {
           "name": "",
@@ -230,8 +230,8 @@
       "time": 1,
       "time_mensure":"month",
       "was_good": false,
-      "description": "",
-      "bible_passages": "",
+      "description": "# Salum\nSalúm, hijo de Jabes, conspiró contra Zacarías; lo hirió y lo mató en presencia del pueblo. Reinó en su lugar sobre Samaria durante un mes, porque Manahem, hijo de Gadi, vino a Samaria y lo mató, y tomó su lugar.",
+      "bible_passages": "2 Reyes 15:10, 13-16",
       "prophets": [
         {
           "name": "",
@@ -241,13 +241,13 @@
       ]
     },
     {
-      "name": "Manahém",
+      "name": "Manahem",
       "key":"manahem",
       "time": 10,
       "time_mensure":"year",
       "was_good": false,
-      "description": "",
-      "bible_passages": "",
+      "description": "# Manahem\nManahem, hijo de Gadi, conspiró contra Salum; lo hirió y lo mató, y reinó en su lugar sobre Israel durante diez años. Hizo lo malo ante los ojos de Jehová porque no se apartó de los pecados de Jeroboam, e hizo pecar al pueblo.\n\n## Manahem y los Asirios\nVino Pul rey de Asiria a atacar Israel y Manahem le dio mil talentos de plata para ayudarlo a confirmarse como rey; impuso 50 siclos de plata de los más poderosos y opulentos del pueblo, para dárselos al rey asirio, y de esta forma Pul pasó de largo el reino de Israel.",
+      "bible_passages": "2 Reyes 15:14, 16-22",
       "prophets": [
         {
           "name": "",
@@ -262,8 +262,8 @@
       "time": 2,
       "time_mensure":"year",
       "was_good": false,
-      "description": "",
-      "bible_passages": "",
+      "description": "# Pekaía\nPekaía asumió el trono en el año cincuenta de Azarías, rey de Judá, luego de la muerte de Manahem, su padre; e hizo lo malo ante los ojos de Jehová, y no se apartó de los pecados de Jeroboam. Sin embargo, Peka hijo de Ramalías conspiró contra él, lo hirió y lo mató en Samaria y reinó en su lugar.",
+      "bible_passages": "2 Reyes 15:22-26",
       "prophets": [
         {
           "name": "",
@@ -278,8 +278,8 @@
       "time": 20,
       "time_mensure":"year",
       "was_good": false,
-      "description": "",
-      "bible_passages": "",
+      "description": "# Peka\nPeka hijo de Ramalías conspiró contra Pekaía, lo hirió y lo mató en Samaria, junto a Argob, Arie y cincuenta galaaditas, y reinó en su lugar en el año cincuenta y dos de Azarías, rey de Juda, y gobernó sobre Israel durante veinte años. Hizo lo malo ante los ojos de Jehová y no se apartó de los pecados de Jeroboam.\nOseas, hijo de Ela, conspiró contra Peka, lo hirió y lo mató, y reinó en su lugar.\n\n## Comienzo del cautiverio de Israel\nDurante el reinado de Peka, Tigliat-pileser, rey asirio, y tomó a Ijón, Abel-bet-maaca, Janoa, Cedes, Hazor, Galaad, Galilea, y toda la tierra de Neftalí y los llevó cautivos a Asiria.",
+      "bible_passages": "2 Reyes 15:25-31",
       "prophets": [
         {
           "name": "",
@@ -295,7 +295,7 @@
       "time_mensure":"year",
       "was_good": false,
       "description": "# Oseas\n\nOseas fue el último rey del reino del norte. Conspiró contra el rey Peka, a pesar que Dios nunca se lo ordenó, y ocupó el trono durante 9 años. Hizo lo malo ante los ojos de Dios, aunque no fue el peor, y terminó cautivo por el rey asirio.",
-      "bible_passages": "",
+      "bible_passages": "2 Reyes 15:30; 17:1-6",
       "prophets": [
         {
           "name": "",
