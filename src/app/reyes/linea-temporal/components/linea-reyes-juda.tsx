@@ -121,7 +121,7 @@ export const LineaReyesJudaComponent = () => {
       time_mensure: 'Años'
     },
     {
-      name: 'Azarías',
+      name: 'Azarías/Uzias',
       key: 'azarias',
       time: 52,
       time_mensure: 'Años'
@@ -205,13 +205,25 @@ export const LineaReyesJudaComponent = () => {
                   <FaExternalLinkAlt className="text-gray-700" />
                 </Link>
               </div>
-              <Typography variant="body2" color="textSecondary">
-                Tiempo de reinado: {item.time} {item.time_mensure}
-              </Typography>
+              <div>
+                <p className='text-lg underline'>Reinado: </p>
+                <p className='text-base'>{item.time} {item.time_mensure}</p>
+              </div>
+              <div>
+                <p className='text-lg underline'>Profetas: </p>
+              </div>
+              {/* <Typography variant="body2" color="textSecondary">
+              </Typography> */}
             </TimelineContent>
           </TimelineItem>
         ))}
       </Timeline>
+      <div className='w-full h-[calc(70*52px)] bg-gray-300'>
+        70 Años exilio
+      </div>
+      <div className='w-full h-[calc(70*52px)] bg-orange-200'>
+        Post exilio
+      </div>
     </div>
   )
 }

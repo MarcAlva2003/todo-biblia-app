@@ -6,6 +6,8 @@ import React, { useState } from 'react'
 
 import { LineaProfetasComponent } from './components/linea-profetas'
 import { LineaReyesComponent } from './components/linea-reyes'
+import { LineaReyesIsraelComponent } from './components/linea-reyes-israel'
+import { LineaReyesJudaComponent } from './components/linea-reyes-juda'
 import Timeline from '@material-ui/lab/Timeline'
 import TimelineConnector from '@material-ui/lab/TimelineConnector'
 import TimelineContent from '@material-ui/lab/TimelineContent'
@@ -94,7 +96,7 @@ export default function ReyesTimelinePage() {
         </TimelineItem>
       </Timeline>
       <h2 className="text-center mt-10 mb-4">Reino dividio</h2>
-      <div className="md:hidden">
+      {/* <div className="md:hidden">
         <ToggleButtonGroup
           color="primary"
           value={showTimeline}
@@ -108,16 +110,29 @@ export default function ReyesTimelinePage() {
             </ToggleButton>
           ))}
         </ToggleButtonGroup>
-      </div>
+      </div> */}
 
       {/* SHOW/HIDE TIMELINE ONLY ON MOBILE RESOLUTIONS */}
       {/* BIGGER RESOLUTIONS: SHOW BOTH TIMELINES */}
-      <div className="md:flex">
+      {/* <div className="md:flex">
         <div className={`${showTimeline === TIMELINE_SWITCH.PROFETAS ? 'invisible hidden' : ''} md:visible md:block`}>
           <LineaReyesComponent />
         </div>
         <div className={`${showTimeline === TIMELINE_SWITCH.REYES ? 'invisible hidden' : ''} md:visible md:block`}>
           <LineaProfetasComponent />
+        </div>
+      </div> */}
+      <div className="max-w-[full] overflow-x-scroll">
+        <div className="lineas flex">
+          <div className=" w-[33%] min-w-[220px] kings-timeline">
+            <LineaReyesJudaComponent />
+          </div>
+          <div className=" w-[33%] min-w-[220px] kings-timeline">
+            <LineaReyesIsraelComponent />
+          </div>
+          <div className=" w-[33%] min-w-[220px]">
+            <LineaProfetasComponent />
+          </div>
         </div>
       </div>
     </div>

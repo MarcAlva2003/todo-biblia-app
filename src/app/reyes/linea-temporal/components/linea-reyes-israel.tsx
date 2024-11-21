@@ -52,7 +52,7 @@ export const LineaReyesIsraelComponent = () => {
     baasa: 'min-h-0 bg-teal-200 h-[calc(24*52px)]',
     ela: 'min-h-0 bg-teal-100 h-[calc(2*52px)]',
     zimri: 'min-h-0 bg-teal-200 h-[1px]', //7 días
-    omri: 'min-h-0 bg-teal-100 h-[calc(6*52px)]',
+    omri: 'min-h-0 bg-teal-100 h-[calc(12*52px)]',
     acab: 'min-h-0 bg-teal-200 h-[calc(22*52px)]',
     ocozias_israel: 'min-h-0 bg-teal-100 h-[calc(2*52px)]',
     joram_israel: 'min-h-0 bg-teal-200 h-[calc(12*52px)]',
@@ -102,7 +102,7 @@ export const LineaReyesIsraelComponent = () => {
     {
       name: 'Omri',
       key: 'omri',
-      time: 6,
+      time: 12,
       time_mensure: 'Años'
     },
     {
