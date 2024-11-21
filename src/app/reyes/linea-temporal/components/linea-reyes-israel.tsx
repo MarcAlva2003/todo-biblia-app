@@ -196,15 +196,19 @@ export const LineaReyesIsraelComponent = () => {
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-              <div className="mt-[-10px]">
-                <Link href={`${ROUTES.REYES}/${item.key}`} className="w-fit flex items-center">
+            <div className="w-full flex justify-end mt-[-10px]">
+                <Link href={`${ROUTES.REYES_ISRAEL}/${item.key}`} className="w-fit flex items-center">
                   <h4 className="w-fit py-1 pr-2">{item.name}</h4>
                   <FaExternalLinkAlt className="text-gray-700" />
                 </Link>
               </div>
-              <Typography variant="body2" color="textSecondary">
-                Tiempo de reinado: {item.time} {item.time_mensure}
-              </Typography>
+              <div>
+                <p className='text-lg underline'>Reinado: </p>
+                <p className='text-base'>{item.time} {item.time_mensure}</p>
+              </div>
+              <div>
+                <p className='text-lg underline'>Profetas: </p>
+              </div>
             </TimelineContent>
           </TimelineItem>
         ))}

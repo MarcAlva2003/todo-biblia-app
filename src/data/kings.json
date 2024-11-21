@@ -304,5 +304,135 @@
         }
       ]
     }
+  ],
+  "juda": [
+    {
+      "name": "Roboam",
+      "key":"roboam",
+      "time": 0,
+      "time_mensure":"year",
+      "was_good": false,
+      "description": "# Roboam\n- Escuchó el consejo de los jóvenes y no el de los sabios ancianos\n- Fue humilde para escuchar a Dios; la gente de su reino buscaba a Dios\n- Consolidado su reino, él y su pueblo dejaron la ley de Dios\n- Esdificaron lugares altos, estatuas e imágenes de Asera\n- Profeta Semaías lo reprende por lo que hizo y dice que por haber dejado a Jehová ahora Él los dejaba en manos de Sisac",
+      "bible_passages": "2 Reyes 15:30; 17:1-6",
+      "prophets": [
+        {
+          "name": "",
+          "prophecy": "",
+          "bible_passages": ""
+        }
+      ]
+    },
+    {
+      "name": "Abías/Abiam",
+      "key":"abias",
+      "time": 0,
+      "time_mensure":"year",
+      "was_good": false,
+      "description": "# Abías/AbiamAnduvo en los pecados de su padre y no fue su corazón perfecto para con Dios- Le dio un sermón a Jeroboam por haberse desviado de Jehová- Fueron por primera vez a guerra con el reino del norte- Judá clama por ayuda a Jehová para ser librados",
+      "bible_passages": "2 Reyes 15:30; 17:1-6",
+      "prophets": [
+        {
+          "name": "",
+          "prophecy": "",
+          "bible_passages": ""
+        }
+      ]
+    },
+    {
+      "name": "Asa",
+      "key":"asa",
+      "time": 0,
+      "time_mensure":"year",
+      "was_good": false,
+      "description": " # Asa\n- No fue tibio para con el pecado ni para con las cosas de Dios\n- Fue claro y definido; quitó los altares del culto extraño, los lugares altos, quebró las imágenes y símbolos de Asera\n- Pidió ayuda a Dios para derrotar a los Etíopes\n- El profeta Azarías los anima diciendo que Dios estaría con ellos si ellos estaban con Él, y que si lo buscaban lo iban a hallar, pero que si lo dejaban, Él también los dejaría.\n- Fue a guerra contra Baasa\n- Pagó a Siria para que pelee por ellos\n- El profeta Hanani lo reprende y le recuerda el triunfo que tuvo hace unos años, pero Asa manda a Hanani a la carcel\n- Se cerró a Jehová y no quizo oir la Palabra de Dios",
+      "bible_passages": "2 Reyes 15:30; 17:1-6",
+      "prophets": [
+        {
+          "name": "",
+          "prophecy": "",
+          "bible_passages": ""
+        }
+      ]
+    },
+    {
+      "name": "Josafat",
+      "key":"josafat",
+      "time": 0,
+      "time_mensure":"year",
+      "was_good": false,
+      "description": "# Josafat\n- Anduvo en los caminos de David su Padre\n- Jehová confirmó su reino y tuvo riquezas y gloria en abundancia\n- Quitó los lugares altos e imágenes de Asera\n- Enseñó en todas las ciudades la ley de Dios\n- Por tener temor de Dios, Dios manda pavor sobre las naciones vecinas y ninguna se levanta contra Judá\n- Entabló parentezco con Acab, casando a su hijo con Atalía, hija del rey de Israel\n- Acompaña a la guerra a Acab pero el profeta Jehú lo reprende de parte de Dios\n- Va a la guerra contra Moab, Amon y el monte de Seir; confieza publicamente a Dios que no tiene fuerzas y que necesita su ayuda y el profeta Jaziel le dice que va a tener la victoria.\n- Tiene amistad con Ocozias, hijo de Acab, construyen naves pero Eliezer, profeta, le dice que Dios las destruiría, lo cual sucedió.",
+      "bible_passages": "2 Reyes 15:30; 17:1-6",
+      "prophets": [
+        {
+          "name": "",
+          "prophecy": "",
+          "bible_passages": ""
+        }
+      ]
+    },
+    {
+      "name": "Joram",
+      "key":"joram_juda",
+      "time": 0,
+      "time_mensure":"year",
+      "was_good": false,
+      "description": "# Joram\nAnduvo en el camino de los reyes de Israel.\n- Hizo asesinar a sus hermanos y a algunos príncipes de Israel\n- Se quedó con todos los bienes de sus parientes\n- El profeta Elías le envía una carta de reproche por no haber andado en los caminos de Asa y Josafat, y le dice que Dios heriría la nación y su casa con enfermedades, pero el rey no hizo caso a esta carta.",
+      "bible_passages": "2 Reyes 15:30; 17:1-6",
+      "prophets": [
+        {
+          "name": "",
+          "prophecy": "",
+          "bible_passages": ""
+        }
+      ]
+    },
+    {
+      "name": "Ocozías",
+      "key":"ocozias_juda",
+      "time": 0,
+      "time_mensure":"year",
+      "was_good": false,
+      "description": "# Ocozías\nAnduvo en los caminos de la casa de Acab\n- Hizo lo malo ante los ojos de Jehozá\n- Fue a la guerra con Joram, hijo de Acab\n- Se esconde en Samaria para que Jehú no lo mate",
+      "bible_passages": "2 Reyes 15:30; 17:1-6",
+      "prophets": [
+        {
+          "name": "",
+          "prophecy": "",
+          "bible_passages": ""
+        }
+      ]
+    },
+    {
+      "name": "Atalía",
+      "key":"atalia ",
+      "time": 0,
+      "time_mensure":"year",
+      "was_good": false,
+      "description": "# Atalía\n- Destruye toda la casa de Jehová, lo que queda de la casa davídica\n- Reina con un poder malvado\n- Es derrotada por Joiada, y Joás asume su trono",
+      "bible_passages": "2 Reyes 15:30; 17:1-6",
+      "prophets": [
+        {
+          "name": "",
+          "prophecy": "",
+          "bible_passages": ""
+        }
+      ]
+    },
+    {
+      "name": "",
+      "key":" ",
+      "time": 0,
+      "time_mensure":"year",
+      "was_good": false,
+      "description": "",
+      "bible_passages": "2 Reyes 15:30; 17:1-6",
+      "prophets": [
+        {
+          "name": "",
+          "prophecy": "",
+          "bible_passages": ""
+        }
+      ]
+    }
   ]
 }

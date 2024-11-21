@@ -73,7 +73,7 @@ export const LineaReyesJudaComponent = () => {
       time_mensure: 'Años'
     },
     {
-      name: 'Abías/Abiám',
+      name: 'Abías/Abiam',
       key: 'abias',
       time: 3,
       time_mensure: 'Años'
@@ -91,7 +91,7 @@ export const LineaReyesJudaComponent = () => {
       time_mensure: 'Años'
     },
     {
-      name: 'Jorám',
+      name: 'Joram',
       key: 'joram_juda',
       time: 8,
       time_mensure: 'Años'
@@ -200,7 +200,7 @@ export const LineaReyesJudaComponent = () => {
             </TimelineSeparator>
             <TimelineContent>
               <div className="w-full flex justify-end mt-[-10px]">
-                <Link href={`${ROUTES.REYES}/${item.key}`} className="w-fit flex items-center">
+                <Link href={`${ROUTES.REYES_JUDA}/${item.key}`} className="w-fit flex items-center">
                   <h4 className="w-fit py-1 pr-2">{item.name}</h4>
                   <FaExternalLinkAlt className="text-gray-700" />
                 </Link>
@@ -212,8 +212,6 @@ export const LineaReyesJudaComponent = () => {
               <div>
                 <p className='text-lg underline'>Profetas: </p>
               </div>
-              {/* <Typography variant="body2" color="textSecondary">
-              </Typography> */}
             </TimelineContent>
           </TimelineItem>
         ))}

@@ -9,8 +9,15 @@ export const getKings = () => {
   // .catch(error => console.error('Error fetching data:', error));
 }
 
-export const getKingByKey = (king_key: string) => {
+export const getIsraelKingByKey = (king_key: string) => {
   const king = data.israel.filter(item => item.key === king_key)
+  // const king = data.israel.map((item) => item.key === king_key)
+  console.log('king', king)
+  return king.length > 0 ? king[0] : undefined
+}
+
+export const getJudaKingByKey = (king_key: string) => {
+  const king = data.juda.filter(item => item.key === king_key)
   // const king = data.israel.map((item) => item.key === king_key)
   console.log('king', king)
   return king.length > 0 ? king[0] : undefined
