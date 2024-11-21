@@ -419,13 +419,13 @@
       ]
     },
     {
-      "name": "",
-      "key":" ",
+      "name": "Joas",
+      "key":"joas",
       "time": 0,
       "time_mensure":"year",
       "was_good": false,
-      "description": "",
-      "bible_passages": "2 Reyes 15:30; 17:1-6",
+      "description": "# Joás\n- Tuvo bien comienzo bajo la influencia del sacerdote Joiada\n- Se restaura el templo; destrucción del culto a Baal\n- Pone porteros en la puerta del Templo\n- El rey dio pautas de como hacer esta obra\n- Después de la muerte de Joiada, Joás hace lo malo ante los ojos de Jehová. Sirve a Asera y a otras imágenes\n- No escucha a los profetas, y Zacarías lo reprende por haber dejado a Jehová, por lo cual Dios también los abandonaría\n- Mataron a Zacarías y Joás no se acordó de Joiada y no hizo nada por Zacarías, su hijo\n- Joás le da todos los tesoros del Templo a Siria para no ser destruidos",
+      "bible_passages": "",
       "prophets": [
         {
           "name": "",
@@ -433,6 +433,198 @@
           "bible_passages": ""
         }
       ]
-    }
+    },
+    {
+      "name": "Amasías",
+      "key":"amasias",
+      "time": 0,
+      "time_mensure":"year",
+      "was_good": false,
+      "description": "# Amasías\nHizo lo bueno ante los ojos de Dios aunque no con un corazón perfecto.\n- Tuvo un buen comienzo. Un varón de Dios le dijo que no vaya con el ejército de Israel a pelear, porque Dios no les daría la victoria, y él manda al ejército a sus casas, haciendo caso a las palabras de este profeta.\n- Trajo dioses de otras naciones y las adoró\n- Jehová manda un profeta a reprenderlo por su idolatría pero Amasías no lo escucha, y se apartó de Jehová. A partir de este momento, empezaron a conspirar contra él.",
+      "bible_passages": "",
+      "prophets": [
+        {
+          "name": "",
+          "prophecy": "",
+          "bible_passages": ""
+        }
+      ]
+    },
+    {
+      "name": "Azarías",
+      "key":"azarias",
+      "time": 0,
+      "time_mensure":"year",
+      "was_good": false,
+      "description": "",
+      "bible_passages": "",
+      "prophets": [
+        {
+          "name": "",
+          "prophecy": "",
+          "bible_passages": ""
+        }
+      ]
+    },
+    {
+      "name": "Jotám",
+      "key":"jotam",
+      "time": 0,
+      "time_mensure":"year",
+      "was_good": false,
+      "description": "",
+      "bible_passages": "",
+      "prophets": [
+        {
+          "name": "",
+          "prophecy": "",
+          "bible_passages": ""
+        }
+      ]
+    },
+    {
+      "name": "Acaz",
+      "key":"acaz",
+      "time": 0,
+      "time_mensure":"year",
+      "was_good": false,
+      "description": "",
+      "bible_passages": "",
+      "prophets": [
+        {
+          "name": "",
+          "prophecy": "",
+          "bible_passages": ""
+        }
+      ]
+    },
+    {
+      "name": "Ezequías",
+      "key":"ezequias",
+      "time": 0,
+      "time_mensure":"year",
+      "was_good": false,
+      "description": "",
+      "bible_passages": "",
+      "prophets": [
+        {
+          "name": "",
+          "prophecy": "",
+          "bible_passages": ""
+        }
+      ]
+    },
+    {
+      "name": "Manasés",
+      "key":"manases",
+      "time": 0,
+      "time_mensure":"year",
+      "was_good": false,
+      "description": "",
+      "bible_passages": "",
+      "prophets": [
+        {
+          "name": "",
+          "prophecy": "",
+          "bible_passages": ""
+        }
+      ]
+    },
+    {
+      "name": "Amón",
+      "key":"amon",
+      "time": 0,
+      "time_mensure":"year",
+      "was_good": false,
+      "description": "",
+      "bible_passages": "",
+      "prophets": [
+        {
+          "name": "",
+          "prophecy": "",
+          "bible_passages": ""
+        }
+      ]
+    },
+    {
+      "name": "Josías",
+      "key":"josias",
+      "time": 0,
+      "time_mensure":"year",
+      "was_good": false,
+      "description": "",
+      "bible_passages": "",
+      "prophets": [
+        {
+          "name": "",
+          "prophecy": "",
+          "bible_passages": ""
+        }
+      ]
+    },
+    {
+      "name": "Joacaz",
+      "key":"joacaz",
+      "time": 0,
+      "time_mensure":"year",
+      "was_good": false,
+      "description": "",
+      "bible_passages": "",
+      "prophets": [
+        {
+          "name": "",
+          "prophecy": "",
+          "bible_passages": ""
+        }
+      ]
+    },
+    {
+      "name": "Joacím",
+      "key":"joacim",
+      "time": 0,
+      "time_mensure":"year",
+      "was_good": false,
+      "description": "",
+      "bible_passages": "",
+      "prophets": [
+        {
+          "name": "",
+          "prophecy": "",
+          "bible_passages": ""
+        }
+      ]
+    },
+    {
+      "name": "Joaquín",
+      "key":"joaquin",
+      "time": 0,
+      "time_mensure":"year",
+      "was_good": false,
+      "description": "",
+      "bible_passages": "",
+      "prophets": [
+        {
+          "name": "",
+          "prophecy": "",
+          "bible_passages": ""
+        }
+      ]
+    },
+    {
+      "name": "Sedequías",
+      "key":"sedequias",
+      "time": 0,
+      "time_mensure":"year",
+      "was_good": false,
+      "description": "",
+      "bible_passages": "",
+      "prophets": [
+        {
+          "name": "",
+          "prophecy": "",
+          "bible_passages": ""
+        }
+      ]
+    },
   ]
 }
