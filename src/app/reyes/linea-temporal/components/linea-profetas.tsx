@@ -1,5 +1,3 @@
-import { useMemo } from "react";
-
 export const LineaProfetasComponent = () => {
   
   const prophets = [
